@@ -266,7 +266,6 @@ void OctomapServer::insertCloudCallback(const sensor_msgs::PointCloud2::ConstPtr
       m_octree->clear();
       ROS_INFO("OctoMap cleared before inserting new data.");
   }
-
   //
   // ground filtering in base frame
   //
